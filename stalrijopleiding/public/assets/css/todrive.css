@@ -1,0 +1,127 @@
+/* deze file is belangrijk, niet aankomen */
+
+.todrive {
+    background-image: url("../images/background.png");
+    padding-left: 170px;
+    height: 100vw;
+}
+
+.todrive img {
+    width: 700px;
+    padding-top: 150px;
+    float: right;
+    padding-right: 200px;
+}
+
+.todrive h1 {
+    padding-top: 200px;
+    color: #237d98;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.todrive p {
+    color: #237d98;
+    font-size: 19px;
+}
+
+.todrive_info {
+    float: left;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.todrive_info h2{
+    margin-bottom: 30px;
+}
+
+.todrive_info p{
+    color: #ffffff;
+}
+
+.img2 {
+    display: none;
+}
+
+@media screen and (max-width: 1300px){
+
+    .todrive {
+        height: 130vw;
+    }
+
+}
+@media screen and (min-width: 1750px){
+
+    .todrive p {
+        font-size: 23px;
+    }
+
+    .todrive img {
+        padding-top: 0px;
+        width: 750px;
+    }
+
+    .todrive {
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    p {
+        height: 100%;
+        font-size: 17px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .todrive {
+        height: 100%;
+        padding-left: 50px;
+        margin-right: 50px;
+        background-image: none;
+    }
+
+    .todrive img {
+        width: 100px;
+        padding-top: 0px;
+        padding-right: 0px;
+        align-self: center;
+    }
+
+    .todrive h1 {
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .todrive_info p {
+        color: #237d98;
+    }
+
+    .todrive_info {
+        margin-top: 50px;
+    }
+
+    .todrive p {
+        font-size: 17px;
+    }
+
+    .todrive_info h2 {
+        color: #237d98;
+        font-size: 30px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: unset;
+    }
+
+    .footer {
+        margin-top: 200px;
+    }
+}

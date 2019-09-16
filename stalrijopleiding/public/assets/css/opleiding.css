@@ -1,0 +1,205 @@
+/* deze file is belangrijk, niet aankomen */
+
+p {
+    font-size: 18px;
+}
+
+.wraps {
+    position:relative;
+}
+
+body {
+    touch-action: none;
+}
+
+.theorie {
+    background-image: url("../images/background.png");
+    color: #237d98;
+    height: 210vh;
+}
+
+.theorie h1 {
+    padding-top: 200px;
+    color: #237d98;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.theorie h2 {
+    margin-bottom: 30px;
+    margin-left: 170px;
+}
+
+.theorie p {
+    padding-left: 170px;
+}
+
+.praktijk p{
+    color: #ffffff;
+}
+
+.praktijk h2{
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.praktijk {
+    margin-right: 100px;
+    margin-top: -750px;
+    float: right;
+}
+
+footer{
+    margin-top: 500px;
+}
+
+
+
+@media screen and (min-width: 1750px){
+
+    .praktijk h2 {
+        margin-top: 0px;
+        margin-left: 170px;
+    }
+
+    .theorie {
+        background-image: none;
+    }
+
+    .praktijktwee, .praktijk p, .praktijk h2 {
+        color: #237d98;
+    }
+
+    .theorie {
+        height: 100%;
+    }
+
+    .praktijk,  .praktijktwee, .praktijk p {
+        margin-top: 0px;
+    }
+
+    .dauto {
+        float: unset;
+        margin-right: 0px;
+        margin-left: 170px;
+        margin-top: 100px;
+    }
+
+    .praktijk p, .praktijk h2 {
+        float: unset;
+        margin-left: 170px;
+    }
+
+    .praktijk h2 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .praktijk p {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 1441px){
+    .praktijk {
+        margin-top: -900px;
+    }
+
+    .theorie {
+        height: 175vh;
+    }
+}
+
+@media screen and (min-width: 1301px){
+    .praktijk {
+        margin-top: -800px;
+    }
+}
+
+@media screen and (max-width: 1281px){
+
+    .praktijk h2 {
+        margin-top: 0px;
+    }
+
+    .theorie {
+        background-image: none;
+    }
+
+    .praktijk {
+        margin-right: 0px;
+        margin-top: 0px;
+        float: none;
+    }
+
+    .praktijktwee, .praktijk p, .praktijk h2 {
+        color: #237d98;
+    }
+
+    .theorie {
+        height: 100%;
+    }
+
+    .praktijk,  .praktijktwee, .praktijk p {
+        margin-top: 0px;
+    }
+
+    .praktijk p, .praktijk h2 {
+        float: unset;
+    }
+
+    .praktijk h2 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-left: 170px;
+    }
+
+    .praktijk p {
+        margin-left: 170px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1300px){
+    p {
+        margin-left: 50px;
+        font-size: 17px;
+        height: 100%;
+        margin-right: 50px;
+    }
+
+    .theorie {
+        background-image: none;
+        height: 100%;
+    }
+
+    .theorie h1{
+        margin-left: 50px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .theorie h2 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    .theorie p  {
+        padding: 0;
+        margin-left: 50px;
+   }
+
+   .praktijk h2 {
+    margin-left: 50px;
+    }
+
+    .praktijk p {
+        margin-left: 50px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}

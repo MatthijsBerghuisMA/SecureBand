@@ -1,0 +1,117 @@
+/* deze file is belangrijk, niet aankomen */
+
+.PenP{
+    padding-top: 200px;
+    color: #237d98;
+    line-height: 1.5;
+    margin-left: 170px;
+}
+
+.tarieven{
+    padding-top: 40px;
+    margin-bottom: 300px;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: -170px;
+}
+
+.prijzen{
+    margin-top: 100px;
+    margin-left: 40px;
+    float: right;
+    border-left: 1px solid;
+    padding-left: 10px;
+}
+
+.prijzen p {
+    font-size: 18px;
+}
+
+.pakketen {
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.pakketen p {
+    font-size: 18px;
+}
+
+.button{
+    background-color: #237d98;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 60px;
+}
+
+.button:hover{
+    background-color: #dc8368;
+    color: #fdfdfd;
+    transition: 0.5s;
+}
+
+footer{
+    padding-top: 40px;
+    margin-top: -200px;
+}
+
+.pakkettenmo {
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .PenP {
+        margin-left: 50px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .prijzen p {
+        font-size: 40px;
+        margin: 10px 0px;
+    }
+
+    .pakketen p {
+        font-size: 30px;
+    }
+
+    .pakketen {
+        display: none;
+    }
+
+    .prijzen {
+        display: none;
+    }
+
+    .button {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .pakkettenmo {
+        display: unset;
+        margin-left: 170px;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .pakkettenmo p {
+        margin: 10px 0px;
+    }
+
+   footer {
+       margin-top: 600px;
+   }
+}
